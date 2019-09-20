@@ -28,6 +28,8 @@
     "typings": "ngx-confirmation.d.ts",
     "peerDependencies": {
         "@angular/core": "^7.2.11",
-        "@angular/common": "^7.2.11"
+        "@angular/common": "^7.2.11",
+        "@sweetalert2/ngx-sweetalert2": "^5.1.0",
+        "sweetalert2": "^8.15.3"
     }
 }
