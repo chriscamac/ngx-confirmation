@@ -1,0 +1,33 @@
+{
+    "name": "ngx-confirmation",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chriscamac/ngx-confirmation"
+    },
+    "author": {
+        "name": "chriscamac",
+        "email": "ccamac07@gmail.com"
+    },
+    "keywords": [
+        "angular"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chriscamac/ngx-confirmation/issues"
+    },
+    "ngPackage": {
+        "lib": {
+            "entryFile": "public_api.ts"
+        },
+        "dest": "../dist"
+    },
+    "main": "ngx-confirmation.umd.js",
+    "module": "ngx-confirmation.js",
+    "jsnext:main": "ngx-confirmation.js",
+    "typings": "ngx-confirmation.d.ts",
+    "peerDependencies": {
+        "@angular/core": "^7.2.11",
+        "@angular/common": "^7.2.11"
+    }
+}
